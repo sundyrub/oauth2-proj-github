@@ -5,12 +5,13 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://git.heroku.com/oauth-test-sundygear.git"
+    "url": "https://git.heroku.com/sleepy-cove-56687.git"
   },
   "author": "sohamkamani",
   "license": "MIT",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "heroku-postbuild": "npm run build"
   },
   "dependencies": {
     "axios": "^0.21.1",
